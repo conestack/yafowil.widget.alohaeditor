@@ -25,4 +25,7 @@ def get_css():
         {'resource': 'http://cdn.aloha-editor.org/current/css/aloha.css',
          'thirdparty': False,
          'order': 20,},
+        {'resource': 'widget.css',
+         'thirdparty': False,
+         'order': 21,},
     ]

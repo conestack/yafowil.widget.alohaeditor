@@ -11,8 +11,8 @@ def get_resource_dir():
 
 def get_js():
     return [
-        {'resource': 'aloha.js',
-         'thirdparty': True,
+        {'resource': 'Aloha-Editor/src/lib/aloha.js',
+         'thirdparty': False,
          'order': 20,},
         {'resource': 'widget.js',
          'thirdparty': False,
@@ -22,7 +22,7 @@ def get_js():
 
 def get_css():
     return [
-        {'resource': 'aloha.css',
+        {'resource': 'Aloha-Editor/src/css/aloha.css',
          'thirdparty': False,
          'order': 20,},
     ]

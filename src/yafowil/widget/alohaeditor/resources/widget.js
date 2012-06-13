@@ -23,6 +23,12 @@ if (typeof(window['yafowil']) == "undefined") yafowil = {};
     $.extend(yafowil, {
         alohaeditor: {
             binder: function(context) {
+                Aloha.settings = {
+                   jQuery: $, // use own jQuery
+                   plugins: { // load plugins programmatically
+                       load: "common/format, common/list, common/link, common/highlighteditables"
+                   }
+                };
                 Aloha.ready( function(){
                     $('textarea.alohaeditor', context).each(function(event) {
                         var id = $(this).attr('id');

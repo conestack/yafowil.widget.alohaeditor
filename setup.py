@@ -41,9 +41,6 @@ setup(name='yafowil.widget.alohaeditor',
       entry_points="""
       [yafowil.plugin]
       register = yafowil.widget.alohaeditor:register
-      resourcedir = yafowil.widget.alohaeditor:get_resource_dir
-      javascripts = yafowil.widget.alohaeditor:get_js
-      stylesheets = yafowil.widget.alohaeditor:get_css
       example = yafowil.widget.alohaeditor.example:get_example
       """,
       )

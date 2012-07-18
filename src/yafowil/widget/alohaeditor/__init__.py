@@ -2,25 +2,26 @@ import os
 from yafowil.base import factory
 
 
+# XXX: use fanstatic
 resourcedir = os.path.join(os.path.dirname(__file__), 'resources')
 
 js = [{
+    'group': 'alohaeditor',
     'resource': 'http://cdn.aloha-editor.org/current/lib/aloha.js',
-    'thirdparty': False,
     'order': 20,
 }, {
+    'group': 'yafowil.widget.alohaeditor',
     'resource': 'widget.js',
-    'thirdparty': False,
     'order': 21,
 }]
 
 css = [{
+    'group': 'alohaeditor',
     'resource': 'http://cdn.aloha-editor.org/current/css/aloha.css',
-    'thirdparty': False,
     'order': 20,
 }, {
+    'group': 'yafowil.widget.alohaeditor',
     'resource': 'widget.css',
-    'thirdparty': False,
     'order': 21,
 }]
 

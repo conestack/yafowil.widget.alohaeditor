@@ -31,7 +31,7 @@ setup(name='yafowil.widget.alohaeditor',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'yafowil',
+          'yafowil>=2.0',
       ],
       tests_require=tests_require,
       extras_require = dict(
@@ -44,4 +44,3 @@ setup(name='yafowil.widget.alohaeditor',
       example = yafowil.widget.alohaeditor.example:get_example
       """,
       )
-

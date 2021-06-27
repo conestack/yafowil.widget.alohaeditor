@@ -24,7 +24,7 @@ factory.register(
 
 factory.doc['blueprint']['alohaeditor'] = \
 """Add-on blueprint `yafowil.widget.alohaeditor
-<http://github.com/bluedynamics/yafowil.widget.alohaeditor/>`_ .
+<http://github.com/conestack/yafowil.widget.alohaeditor/>`_ .
 """
 
 factory.defaults['alohaeditor.default'] = ''

@@ -4,6 +4,8 @@ This is a **richtext widget** for `yafowil
 
 It is based on the `Aloha Editor https://github.com/alohaeditor/Aloha-Editor`_.
 
+**THIS PACKAGE IS ARCHIVED**
+
 
 Source Code
 ===========
